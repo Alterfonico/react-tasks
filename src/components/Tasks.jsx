@@ -1,6 +1,8 @@
 import React from 'react';
 
-function Tasks() {
-  return <h1>hola mundo</h1>
-}
+function Tasks(props) {
+  return (<p>{props.myTask}</p>)
+  
+};
+
 export default Tasks
