@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Tasks(props) {
-  return (<p>{props.myTask}</p>)
+  return (<p className="para">{props.myTask}</p>)
   
 };
 
